@@ -6,7 +6,7 @@ function calculateMinCost() {
 		lenarr.sort()
 		sum=lenarr[0]+lenarr[1]
 		lenarr[1]=sum
-		arr.shift()
+		lenarr.shift()
 	}
 	sum=lenarr[0]+sum
 	cont reser= document.getElementById("result")
